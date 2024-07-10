@@ -1,0 +1,340 @@
+.azeret-mono-normal {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight:800;
+    font-style: normal;
+}
+
+
+
+.background-img{
+    background-image: url("../assets/Hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+    
+}
+
+.banner{
+   text-align: center;
+}
+.banner h3{
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Azeret Mono"
+}
+.description{
+    font-size: 16px;
+    color:#7e838d;
+   font-family: "Azeret Mono";
+   
+}
+
+.contact{
+    width: 244px;
+    height: 65px;
+    background-color: black;
+    border-radius: 8px;
+    color: white;
+    font-size:20px;
+    cursor: pointer;
+    }
+.btn-link{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-family: "Azeret Mono";
+    font-size: 20px;
+}
+.part-2{
+    border-radius: 16px;
+    margin: 5% 5% 0 5%;
+    background-color: rgba(13, 19, 33, 0.02);
+    
+    
+}
+.paddingDiv{
+    padding: 45px;
+}
+/*  this is part 2 */
+
+
+ .section-title{
+    text-align: center; 
+    font-family: "Azeret Mono";
+    font-size: 16px;
+    color:#7c7f85
+}
+.part-2 h3{
+    
+    padding-top:25px;
+}
+.part2Content{
+    display: flex;justify-content: space-evenly;
+    align-items: center;
+    border-radius: 16px;
+    margin-top: 29px;
+}
+.linearcolor{
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}.linearcolor2{
+    background: linear-gradient(to left, rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+.part2Content div{
+    width: 50%;
+    margin:0 5% 5% 5%;
+    
+}
+.pic{
+    float: right;
+
+}
+ /* shared text color */
+.title{
+
+    font-family: "Azeret Mono" ;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+
+}
+.cause-title1{
+    font-family: "Azeret Mono";
+    font-size: 24px;
+    font-weight: 700;
+    color: rgba(13, 19, 33, 0.7);
+
+}
+.part2,.cause-description{
+    font-family: "Azeret Mono";
+    font-size: 16px ;
+    color:rgb(99, 101, 104) ;
+}
+.learn-more{
+    font-family: "Azeret Mono";
+    color: rgb(75, 75, 78);
+    font: weight 700px;
+    font-size: 20px;
+    display: block;
+    background-color: white;
+    border-color: rgb(99, 101, 104);
+    width: 171px;
+    height: 47px;
+    cursor: pointer;
+    
+}
+.part2,.cause-title2{
+     font-family: "Azeret Mono";
+     font-size:24px ;
+     color:rgb(99, 101, 104) ;
+}
+/* section 3 */
+.section2Title{
+    font-size: 32px;
+    font-family:"Azeret Mono" ;
+    color:#0D1321 ;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 10%;
+}
+.section2Description{
+    font-size: 16px;
+    font-family:"Azeret Mono" ;
+    color:#525458 ;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 3%;
+}
+.container{
+    display: flex;
+    align-items: center;
+    
+    margin: auto;
+
+    width: 1140px;
+    height: 616px;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 16px;
+    padding: 30px ;
+    
+    box-sizing: border-box;
+    box-shadow : inset 0 2px 0  2px #d8d8d8 
+    
+}
+.container iframe{
+    
+    width: 100%;
+    height: 100%;
+    border: 0;
+    border-radius: 15px;
+
+}
+.title4{
+    font-family: "Azeret Mono" ;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    color: #0D1321;
+    margin-top: 10%;
+}
+.description4{
+    font-family: "Azeret Mono" ;
+    font-size: 16px;
+    
+    text-align: center;
+    color: #7c7f85;
+    margin-bottom: 3%;
+    
+}
+
+ 
+
+.parent{
+    width: 1140px;
+    height: 460px;
+    margin: auto;
+}
+
+.allCards{
+    display: flex;
+    justify-content: space-around;
+}
+   
+.card1{
+    width: 364px;
+    height: 299px;
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    
+}
+.card2{
+    width: 364px;
+    height: 299px;
+    background-color:rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+}
+.card3{
+    width: 364px;
+    height: 299px;
+    background-color:rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    
+}
+.cardContent{
+    margin: 25px;
+}
+.cardContent2{
+      margin: 25px;
+}
+.cardContent3{
+    margin: 25px;
+}
+
+.name{
+    font-family: "Azeret Mono";
+     font-size:24px ;
+     color:rgba(13, 19, 33, 1);
+     
+
+}
+.text{
+    font-family: "Azeret Mono";
+     font-size:16px ;
+     color:rgb(146, 146, 146);
+     
+}
+.parent2{
+    width: 1144px;
+    height: 299;
+    margin: auto;
+}
+.btn{
+    background: none;
+    border: none;
+    color: black;
+    text-decoration: underline;
+    cursor:pointer ;
+    font-size: 16px;
+    font-family:"Azeret Mono" ;
+    padding:0;
+    font-weight: bold;
+
+}
+
+
+.last-content{
+    background-image: url('../assets/Frame\ 8\ \(2\).png');
+    text-align: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    width: 1140px;
+    height: 200px;
+    padding: 64px 48px 64px 48px ;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 90px;
+
+}
+ 
+ 
+    
+   
+.last-title{
+    font-size: 32px;
+    font-family: "Azeret Mono";
+    font-weight: bold ;
+    color: white;
+    margin-top: 5%;
+
+}
+.last-paragraph{
+    font-size: 16px;
+    font-family: "Azeret Mono";
+    
+    color:rgba(255, 255, 255, 1);
+    
+}
+.input-field{
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "Azeret Mono";
+    
+    color:rgba(255, 255, 255, 1);
+    background-color: white;
+    background-color: white;
+    
+}
+
+.btn2{
+    width: 120px;
+    height: 57;
+    padding: 17px 20px 17px 20px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 20px;
+    font-family: "Azeret Mono";
+    cursor: pointer;
+}
+
+
+.footer-icons{
+    display: flex;
+    gap: 60px;
+
+}
+
+.footer{
+    display: flex;
+    background-color: rgba(13, 19, 33, 0.03);
+   border-radius: 16px;
+   justify-content: space-evenly;
+   padding: 70PX;  
+   font-size: 20px;
+   font-weight: 600;
+   font-family:"Azeret Mono" ;
+}
